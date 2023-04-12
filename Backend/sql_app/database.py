@@ -18,7 +18,7 @@ SQLALCHEMY_DATABASE_URL = URL.create(
     username = user,
     password=password,
     port = port,
-    host = 'localhost',
+    host = 'db',
     database = 'postgres'
 )
 engine = create_engine(
